@@ -43,7 +43,7 @@ class PropFile:
 
 def Comparer(propFile1, propFile2):
 
-    print ('### Comparing propFile1: ' + propFile1.fileName + 'and propFile2: ' + propFile2.fileName)
+    print ('### Comparing propFile1: ' + propFile1.fileName + ' and propFile2: ' + propFile2.fileName)
 
     uniqPropsFile1 = {}
     uniqPropsFile2 = {}
@@ -131,7 +131,7 @@ if __name__ == '__main__':
     
 
     diffTxtfileName = 'PropertiesDiff_' + str(datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")) + ".txt"
-    print ('### The Properties difference file is ' + diffTxtfileName)
+    print ('### The Properties difference file is >>>>>> ' + diffTxtfileName)
 
     Comparer (propFile1, propFile2)
 
