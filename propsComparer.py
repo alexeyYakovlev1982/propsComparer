@@ -130,7 +130,7 @@ if __name__ == '__main__':
 
     
 
-    diffTxtfileName = 'PropertiesDiff_' + str(datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")) + ".txt"
+    diffTxtfileName = 'PropertiesDiff_' + str(datetime.datetime.now().strftime("%Y-%m-%d_%H:%M:%S")) + ".txt_iii"
     print ('### The Properties difference file is >>>>>> ' + diffTxtfileName)
 
     Comparer (propFile1, propFile2)
