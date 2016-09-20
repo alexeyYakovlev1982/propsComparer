@@ -1,0 +1,310 @@
+
+
+##### Comparison results for properties files - optserver.properties_lab, optserver.properties_prod:
+
+##### Non-equal Properties:
+
+----- the Property - counters.vertica.schema - is NOT equal for both files:
+ file optserver.properties_lab: counters.vertica.schema=beelinemsk_auto
+ file optserver.properties_prod: counters.vertica.schema=sonpm
+
+----- the Property - opt.change_events.write.db_types - is NOT equal for both files:
+ file optserver.properties_lab: opt.change_events.write.db_types=vertica
+ file optserver.properties_prod: opt.change_events.write.db_types=mysql,vertica
+
+----- the Property - jobs.ericsson.statistics.modificationTimeMinutes - is NOT equal for both files:
+ file optserver.properties_lab: jobs.ericsson.statistics.modificationTimeMinutes=15
+ file optserver.properties_prod: jobs.ericsson.statistics.modificationTimeMinutes=30
+
+----- the Property - jobs.ifhoopt.optimizeBasedOnPastMinutes - is NOT equal for both files:
+ file optserver.properties_lab: jobs.ifhoopt.optimizeBasedOnPastMinutes=1440000
+ file optserver.properties_prod: jobs.ifhoopt.optimizeBasedOnPastMinutes=7920
+
+----- the Property - jobs.iratopt.optimizeBasedOnPastMinutes - is NOT equal for both files:
+ file optserver.properties_lab: jobs.iratopt.optimizeBasedOnPastMinutes=1440000
+ file optserver.properties_prod: jobs.iratopt.optimizeBasedOnPastMinutes=7920
+
+----- the Property - opt.events.vertica.read.type - is NOT equal for both files:
+ file optserver.properties_lab: opt.events.vertica.read.type=vertica
+ file optserver.properties_prod: opt.events.vertica.read.type=mysql
+
+----- the Property - provisioning.huawei.umts.isUseNbrCache - is NOT equal for both files:
+ file optserver.properties_lab: provisioning.huawei.umts.isUseNbrCache=true
+ file optserver.properties_prod: provisioning.huawei.umts.isUseNbrCache=FALSE
+
+----- the Property - counters.vertica.password - is NOT equal for both files:
+ file optserver.properties_lab: counters.vertica.password=lPbJ2PfIou8
+ file optserver.properties_prod: counters.vertica.password=aiGk7XgV07k6Soh6Kue6rA
+
+----- the Property - jobs.match.matchByNameWhenUnableByLacCellId - is NOT equal for both files:
+ file optserver.properties_lab: jobs.match.matchByNameWhenUnableByLacCellId=true
+ file optserver.properties_prod: jobs.match.matchByNameWhenUnableByLacCellId=TRUE
+
+----- the Property - com.cellwize.optserver.service.loading.allowedExecsTimeframe - is NOT equal for both files:
+ file optserver.properties_lab: com.cellwize.optserver.service.loading.allowedExecsTimeframe=900
+ file optserver.properties_prod: com.cellwize.optserver.service.loading.allowedExecsTimeframe=800
+
+----- the Property - jobs.loadopt.optimizeBasedOnPastMinutesRTWP - is NOT equal for both files:
+ file optserver.properties_lab: jobs.loadopt.optimizeBasedOnPastMinutesRTWP=999999
+ file optserver.properties_prod: jobs.loadopt.optimizeBasedOnPastMinutesRTWP=60
+
+----- the Property - com.cellwize.jobs.logs.backlogLenth - is NOT equal for both files:
+ file optserver.properties_lab: com.cellwize.jobs.logs.backlogLenth=63072000
+ file optserver.properties_prod: com.cellwize.jobs.logs.backlogLenth=14400
+
+----- the Property - jobs.ericsson.gsm.statistics.modificationTimeMinutes - is NOT equal for both files:
+ file optserver.properties_lab: jobs.ericsson.gsm.statistics.modificationTimeMinutes=15
+ file optserver.properties_prod: jobs.ericsson.gsm.statistics.modificationTimeMinutes=60
+
+----- the Property - jobs.shoopt.optimizeBasedOnPastMinutes - is NOT equal for both files:
+ file optserver.properties_lab: jobs.shoopt.optimizeBasedOnPastMinutes=1440000
+ file optserver.properties_prod: jobs.shoopt.optimizeBasedOnPastMinutes=7920
+
+----- the Property - jobs.gpeh.fs.rscLocatingMethod - is NOT equal for both files:
+ file optserver.properties_lab: jobs.gpeh.fs.rscLocatingMethod=modification-time
+ file optserver.properties_prod: jobs.gpeh.fs.rscLocatingMethod=filename-date-time
+
+----- the Property - jobs.clock.startTime - is NOT equal for both files:
+ file optserver.properties_lab: jobs.clock.startTime=20140512 12:00:00
+ file optserver.properties_prod: jobs.clock.startTime=20120415 12:45:10
+
+----- the Property - jobs.loadopt.dataTimeInterval.minSize - is NOT equal for both files:
+ file optserver.properties_lab: jobs.loadopt.dataTimeInterval.minSize=999999
+ file optserver.properties_prod: jobs.loadopt.dataTimeInterval.minSize=30
+
+----- the Property - jobs.ganr.icdmBacklogDurationMinutes - is NOT equal for both files:
+ file optserver.properties_lab: jobs.ganr.icdmBacklogDurationMinutes=1440000
+ file optserver.properties_prod: jobs.ganr.icdmBacklogDurationMinutes=7920
+
+----- the Property - com.cellwize.optserver.service.loading.allowedExecsNumb - is NOT equal for both files:
+ file optserver.properties_lab: com.cellwize.optserver.service.loading.allowedExecsNumb=2
+ file optserver.properties_prod: com.cellwize.optserver.service.loading.allowedExecsNumb=4
+
+----- the Property - jobs.ganr.optimizeBasedOnPastMinutes - is NOT equal for both files:
+ file optserver.properties_lab: jobs.ganr.optimizeBasedOnPastMinutes=1440000
+ file optserver.properties_prod: jobs.ganr.optimizeBasedOnPastMinutes=7920
+
+----- the Property - counters.vertica.url - is NOT equal for both files:
+ file optserver.properties_lab: counters.vertica.url=jdbc:vertica://192.168.132.155:5433/son
+ file optserver.properties_prod: counters.vertica.url=jdbc:vertica://10.128.143.138:5433/counters
+
+----- the Property - jobs.gpeh.batchingStrategy - is NOT equal for both files:
+ file optserver.properties_lab: jobs.gpeh.batchingStrategy=eagerBatchingStrategy
+ file optserver.properties_prod: jobs.gpeh.batchingStrategy=gpehJobDefaultBatchingStrategy
+
+----- the Property - com.cellwize.jobs.counters.backlogLenth - is NOT equal for both files:
+ file optserver.properties_lab: com.cellwize.jobs.counters.backlogLenth=63072000
+ file optserver.properties_prod: com.cellwize.jobs.counters.backlogLenth=14400
+
+----- the Property - url - is NOT equal for both files:
+ file optserver.properties_lab: url=jdbc:mysql://localhost:3306/son?rewriteBatchedStatements
+ file optserver.properties_prod: url=jdbc:mysql://10.128.143.137:3306/son?rewriteBatchedStatements
+
+
+
+##### Equal Properties for the both properties files - optserver.properties_lab, optserver.properties_prod:
+jobs.ericsson.statistics.filenamePattern='.*_statsfile.xml'
+jobs.huawei.xml.statistics.fs.rscLocatingMethod='filename-date-time'
+jobs.loadopt.dataTimeInterval.secOffset='0'
+jobs.ericsson.gsm.statistics.dateFormat='yyyyMMdd'
+jobs.ericsson.gsm.statistics.foldernamePattern='K*'
+opt.counters.lte.vertica.write='true'
+opt.change_events.db.type='vertica'
+jobs.gpeh.modificationTimeMinutes='15'
+jobs.huawei.statistics.dateFormat='yyyyMMdd'
+jobs.huawei.statistics.modificationTimeMinutes='60'
+provisioning.huawei.useOldAnrProvExecutor='false'
+counters.vertica.driverClassName='com.vertica.jdbc.Driver'
+jobs.ericsson.gsm.statistics.parserDateFormat='yyyyMMDDHHmm'Z''
+opt.counters.lte.vertica.read='vertica'
+opt.events.vertica.write='true'
+jobs.ericsson.statistics.fs.rscLocatingMethod='filename-date-time'
+tableau.vertica.enable='true'
+jobs.huawei.xml.statistics.filenamePattern='.*A((\\d{8}).\\d{4}\\+\\d{4})-(\\d{4}\\+\\d{4})_.*'
+jobs.huawei.statistics.sourceDataPM='true'
+jobs.ericsson.gsm.statistics.fs.rscLocatingMethod='foldername-filename-date'
+jobs.huawei.statistics.offsetSeconds='0'
+jobs.huawei.statistics.fs.rscLocatingMethod='folder-name-date'
+jobs.gpeh.filenamePattern='.*.bin.gz'
+counters.vertica.username='dbadmin'
+counters.db.type='vertica'
+jobs.huawei.statistics.foldernamePattern='pmexport_*'
+jobs.huawei.statistics.filenamePattern='pmresult_*.csv'
+jobs.ericsson.gsm.statistics.offsetSeconds='0'
+jobs.dumpDebugReports='true'
+provisioning.ericsson.isEricssonAnrCmdBased='true'
+jobs.huawei.statistics.datePattern='(\\d{8})'
+jobs.clock.type='system'
+jobs.clock.pattern='yyyyMMdd HH:mm:ss'
+jobs.ericsson.gsm.statistics.datePattern='(\\d{8})'
+jobs.ericsson.gsm.statistics.filenamePattern='\\w(\\d{8}\\.\\d{4})-(\\d{8}\\.\\d{4})'
+
+
+
+
+
+
+
+##### Unique Properties for the properties file - optserver.properties_lab:
+provisioning.huawei.umts.isInSimulationMode='true'
+provisioning.simulator.huawei.directory='provisioning/huawei'
+jobs.iratopt.minPeriodForAnalysis='1'
+jobs.ifhoopt.minHoCount='2'
+nokia.db.driverClassName='com.mysql.jdbc.Driver'
+jobs.ifhoopt.minPeriodForAnalysis='1'
+jobs.colopt.maxTiers.ifho='2'
+jobs.colopt.traverseNeighborTypes='SHO,IFHO,IRAT_UMTS_GSM,IRAT_GSM_UMTS'
+jobs.reportsLocation='results'
+jobs.ifhoopt.neighbourListMinLength='10'
+jobs.ifho.nokia.opt.modificationTimeMinutes='1440000'
+jobs.chr.filenamePattern='.*'
+nokia.db.url='jdbc:mysql://localhost:3306/son?rewriteBatchedStatements'
+jobs.nokiaPerformanceCntJob.batchingStrategy='eagerBatchingStrategy'
+jobs.import.batchingStrategy='eagerBatchingStrategy'
+jobs.net.ftp.isTransferModePassive='true'
+jobs.chr.batchingStrategy='eagerBatchingStrategy'
+jobs.loadopt.maxRxLevVal='-100.0f'
+jobs.ericssonLbCountersReader.batchingStrategy='eagerBatchingStrategy'
+jobs.scResolver.isUseIncomingNeighbors='true'
+jobs.irat.nokia.opt.modificationTimeMinutes='1440000'
+jobs.chr.ftp.isTransferModePassive='true'
+jobs.nokia.gsm.batchingStrategy='eagerBatchingStrategy'
+jobs.shoopt.minHoCounts='2'
+provisioning.simulator.ericsson.directory='provisioning/ericsson'
+jobs.loadopt.minRxLevVal='-116.0f'
+jobs.antopt.optimizeBasedOnPastMinutes='1440000'
+jobs.chr.modificationTimeMinutes='15'
+jobs.scResolver.maxTier='8'
+jobs.mga.batchingStrategy='eagerBatchingStrategy'
+jobs.loadopt.highVarianceThreshold='3.0f'
+provisioning.anr.isExecNrPriority='true'
+jobs.huawei.statistics.batchingStrategy='eagerBatchingStrategy'
+jobs.colopt.maxTiers.gsm='2'
+jobs.scResolver.isScanSmallCells='false'
+jobs.iratopt.minHoCount='2'
+jobs.colopt.maxTiers.umts2gsm='2'
+jobs.loadopt.rxLevValBoost='8.0f'
+jobs.ericsson.gsm.statistics.batchingStrategy='eagerBatchingStrategy'
+jobs.bar.batchingStrategy='eagerBatchingStrategy'
+jobs.ericssonCountersReader.batchingStrategy='eagerBatchingStrategy'
+jobs.iratopt.neighbourListMinLength='10'
+
+
+
+
+
+
+
+##### Unique Properties for the properties file - optserver.properties_prod:
+counters.vertica.tmpCsvDir='/tmp'
+communication.timeToLive =' 5000'
+provisioning.huawei.qrxLevMinChangingThreshold='2'
+customizationPrefix='file:conf/customization/'
+provisioning.nokia.racclimx.command.validatePlanCommand='racclimx.sh -v -op Validate true -planName CELLWIZE_%S'
+provisioning.huawei.lmt.huaweiTelnetConnection.readingTimeout='120000'
+mbeanServerHtmlInterfaceHost='0.0.0.0'
+provisioning.nokia.ganrNrProperties.bscFileSearchPattern='^%ossId%_Cellwize_GSM.xml'
+jobs.export.neighborRel.exportOutputResourcePath='/opt/export/relation_constraints'
+jobs.loadopt.optimalPowerOffset='10f'
+provisioning.nokia.racclimx.command.importPlanCommand='racclimx.sh -v -op Import_Export -fileName  CELLWIZE_%S.XML -importExportOperation planImport -planName CELLWIZE_%S'
+jobs.ericsson.statistics.subdirLookupMaxDepth='4'
+provisioning.nokia.racclimx.command.preActivatePlanCommand='racclimx.sh -v -op Provision -provisioningOperation preactivate true -planName CELLWIZE_%S'
+provisioning.ericsson.amos.port='7777'
+ericsson.gsm.nbr.provisioning.externalGsmCellIdPattern='(vendor'
+provisioning.ericsson.bscmml.login='a'
+provisioning.ericsson.optimizeNbrPriority='false'
+jobs.loadopt.smallChangePowerUp='0.0f'
+communication.messageBrokerUrl='tcp://10.128.143.137:61616'
+erissonSeqExecutorRef='cnaiGsmSeqExecutor'
+jobs.huawei.statistics.ftp.rscLocatingMethod='folder-name-date'
+password='q55gF5bqwkNZsKU3A87pJw'
+provisioning.huawei.qrxLevMinFactor='2'
+jobs.ericsson.statistics.ftp.rscLocatingMethod='filename-date-time'
+com.cellwize.provisioning.cfgmng.designs.path='file:/opt/son_server/conf/cfgmng/designs/'
+provisioning.ericsson.qOffset2SnForShoProvisioningEnabled='true'
+db.oper.url='jdbc:mysql://10.128.143.137:3306/son?rewriteBatchedStatements'
+jobs.nokia.opt.fs.rscLocatingMethod='modification-time'
+provisioning.nokia.irathoNrProperties.rncFileSearchPattern='^%ossId%_Cellwize_ADJG\.xml'
+provisioning.nokia.racclimx.command.activatePlanCommand='racclimx.sh -v -op Activate_Pre-Activation -planName CELLWIZE_%S'
+jobs.loadopt.veryStrongChangePowerDown='-1.5f'
+provisioning.cnai.planProcessorBean='cnaiToOssPlanProcessor'
+db.mng.url='jdbc:mysql://10.128.143.137:3306/son?rewriteBatchedStatements'
+jobs.nokia.opt.filenamePattern='.*'
+provisioning.huawei.umts.nbrIdleModeUpdCmdExecutorSource='file:/opt/son_server/conf/customization/cmdExecutors/huawei/NbrIdleModeUpdCmdExecutor.groovy'
+jobs.apoopt.maxDistKm='10'
+jobs.huawei.statistics.hoExecCount.commitInterval='10000'
+provisioning.nokia.provisioningOutputProcessorFactory='filesystem'
+jobs.shoopt.minHoCountsForSuccessRate='10'
+provisioning.ericsson.useOldProvExecutor='false'
+provisioning.huawei.lmt.spyStreamsDirectory='logs/lmt'
+provisioning.ericsson.amos.address='localhost'
+provisioning.huawei.useOldLBProvExecutor='false'
+provisioning.nokia.racclimx.command.deletePlanCommand='racclimx.sh -v -op planDeletion -planName CELLWIZE_%S'
+jobs.ericsson.statistics.lookupInSubdirectories='TRUE'
+provisioning.ericsson.bscmml.port='7777'
+com.cellwize.provisioning.cfgmng.templates.file='file:/opt/son_server/conf/cfgmng/templates/default_template.csv'
+provisioning.nokia.propertiesFetcherMethod='localfs'
+jobs.loadopt.minPowerOffset='13f'
+provisioning.nokia.cmd.seqExecutorType='file'
+provisioning.nokia.gsmProperties.ossFileSearchPattern='^%id%_Cellwize_GSM.xml'
+jobs.gpeh.events='408,427,386,422,399,451'
+provisioning.huawei.lmt.huaweiTelnetConnection.socketTimeout='600000'
+provisioning.nokia.sectorProperties.rncFileSearchPattern='^%ossId%_Cellwize_WCEL\.xml'
+provisioning.ericsson.amos.login='a'
+jobs.ifhoopt.minHoCountsForSuccessRate='10'
+jobs.net.isFailNetworkLoadOnPartialCounter='FALSE'
+provisioning.nokia.sectorProperties.searchFolderPath='/opt/raw_data/nokia_exports'
+counters.vertica.queryInsertMode='COPY_LOCAL'
+jobs.ericsson.statistics.roundingIfIntervalGreater='60'
+jobs.colopt.maxResolvedCollisions='30'
+provisioning.nokia.sectorProperties.ossFileSearchPattern='^%id%_Cellwize_WCEL\.xml'
+jobs.loadopt.smallChangePowerDown='-0.5f'
+provisioning.nokia.shoNrProperties.rncFileSearchPattern='^%ossId%_Cellwize_ADJS\.xml'
+jobs.ganr.minHoCountsForSuccessRate='10'
+provisioning.ericsson.amos.password='b'
+username='triangulum12'
+jobs.gpeh.ftp.soLingerSeconds='180'
+jobs.gpeh.ftp.isTransferModePassive='false'
+jobs.loadopt.strongChangePowerDown='-1.0f'
+provisioning.nokia.shoNrProperties.searchFolderPath='/opt/raw_data/nokia_exports'
+provisioning.cnai.sdFilePath =' /opt/raw_data/ericsson/2g/configuration/cnai_all_export.txt'
+jobs.huawei.statistics.subdirLookupMaxDepth='3'
+provisioning.huawei.isQhyst2ProvisioningEnabled='true'
+provisioning.nokia.utranProperties.ossFileSearchPattern='^%id%_Cellwize_ADJ.\.xml'
+provisioning.nokia.extUtranSectorProperties.searchFile='%ossId%_Cellwize_EWCE_EWCE.xml'
+provisioning.nokia.irathoNrProperties.searchFolderPath='/opt/raw_data/nokia_exports'
+jobs.huawei.statistics.lookupInSubdirectories='true'
+jobs.loadopt.strongChangePowerUp='1.0f'
+provisioning.ericsson.gsmExtCell.isIndividualOffsetProvisioningEnabled='false'
+provisioning.nokia.lteProperties.ossFileSearchPattern='^%id%_Cellwize_LNADJ.xml'
+provisioning.nokia.ifhoNrProperties.rncFileSearchPattern='^%ossId%_Cellwize_ADJI\.xml'
+jobs.loadopt.optimizeBasedOnPastMinutes='60'
+provisioning.ericsson.amos.ericssonTelnetConnection.readingTimeout='90000'
+jobs.iratopt.customPolicyGroovyFile='BeelineMSKCustomPolicyIrat.groovy'
+provisioning.ericsson.gsmExtCell.isQrxLevMinProvisioningEnabled='true'
+jobs.loadopt.maxPowerOffset='9f'
+jobs.export.nechange.exportOutputResourcePath='/opt/export/prov_actions'
+provisioning.huawei.enabled='true'
+jobs.colopt.commonOptFreq='3036,10788,10813,10836'
+provisioning.ericsson.qrxLevMinChangingThreshold='1'
+jobs.shoopt.customPolicyGroovyFile='BeelineMSKCustomPolicySho.groovy'
+jobs.ericsson.statistics.offsetSeconds='0'
+provisioning.ericsson.bscmml.address='localhost'
+jobs.iratopt.minHoCountsForSuccessRate='10'
+provisioning.nokia.ifhoNrProperties.searchFolderPath='/opt/raw_data/nokia_exports'
+provisioning.nokia.ganrNrProperties.searchFolderPath='/opt/raw_data/nokia_exports'
+jobs.export.neighborRel.multipleExportsPerPeriodEnabled='false'
+provisioning.nokia.extGsmSectorProperties.searchFile='^%ossId%_Cellwize_GSM.xml'
+provisioning.ericsson.bscmml.password='b'
+jobs.lteopt.optimizeBasedOnPastMinutes='7920'
+jobs.gpeh.offsetSeconds='0'
+jobs.gpeh.ftp.soTimeoutSeconds='180'
+jobs.quartz.propertiesLocation='classpath:com/cellwize/optserver/quartz.properties'
+bean.pscProvisioningExecutor.skipEricssonBscExtCellsUpdate='false'
+jobs.net.resolveNeighborsBySectorName='true'
+provisioning.huawei.useOldProvExecutor='false'
+
+
+
+
+
