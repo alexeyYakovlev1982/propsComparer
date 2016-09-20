@@ -135,8 +135,15 @@ if __name__ == '__main__':
 
     Comparer (propFile1, propFile2)
 
+
+
+
+
     #DictToCSV(CSVfileName = diffCSVfileName, dictToCSV = propFile1.propsDict, description = 'Properties of the file ' + propFile1.fileName)
     #DictToCSV(CSVfileName = diffCSVfileName, dictToCSV = propFile2.propsDict, description = 'Properties of the file ' + propFile2.fileName)
+
+
+
 
 
 
